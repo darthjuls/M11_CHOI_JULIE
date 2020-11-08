@@ -66,6 +66,11 @@ nav ul li {
 	border-radius: 20px;
 	width: 100%;
 	height: auto;
+	transition: all 0.3s linear;
+	}
+.gallery img:hover {
+	opacity: 0.5;
+	cursor: pointer;
 	}
 footer {
 	background-color: #A26B82;

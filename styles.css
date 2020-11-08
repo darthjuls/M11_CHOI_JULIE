@@ -63,7 +63,7 @@ nav ul li {
 	margin-bottom: 2%;
 }
 .gallery img {
-	
+	border-radius: 20px;
 	width: 100%;
 	height: auto;
 	}

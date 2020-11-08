@@ -26,12 +26,8 @@ h1 {
   	animation-fill-mode: none;
 }	
 @keyframes myanimation {
-  0% {
-    transform: scale(.75);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% {transform: scale(.75);}
+  100% {transform: scale(1);}
 }
 h2 {
 	font-size: 2.5rem;
@@ -57,9 +53,11 @@ a:hover {
 	cursor: pointer;
 }
 nav {
-	background-color: #A26B82;
 	padding: 0.5%;
-}
+	background: #DFA4AA;
+    background: -webkit-linear-gradient(to bottom, #DFA4AA, #BFA5A7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DFA4AA, #BFA5A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
 nav ul {
 	list-style-type: none;
 	position: center;
@@ -70,7 +68,7 @@ nav ul li {
 	padding: 1%;
 }
 .banner img {
-	width: 85%;
+	width: 100%;
 }
 .intro {
 	padding: 2%;
@@ -89,7 +87,9 @@ nav ul li {
 	height: auto;
 }
 footer {
-	background-color: #A26B82;
+	background: #DFA4AA;
+    background: -webkit-linear-gradient(to bottom, #DFA4AA, #BFA5A7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DFA4AA, #BFA5A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	bottom: 0;
 	padding: 2%;
 	clear: both;
@@ -105,6 +105,7 @@ footer ul li {
 	padding: 0.5%;
 }
 }
+
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 1023px) {
 body {
@@ -137,7 +138,9 @@ a {
 	color: white;
 }
 nav {
-	background-color: #A26B82;
+	background: #DFA4AA;
+    background: -webkit-linear-gradient(to bottom, #DFA4AA, #BFA5A7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DFA4AA, #BFA5A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding: 0.5%;
 }
 nav ul {
@@ -162,12 +165,14 @@ nav ul li {
 	margin-bottom: 2%;
 }
 .gallery img {
-	border-radius: 20px;
+	border-radius: 5px;
 	width: 100%;
 	height: auto;
 }
 footer {
-	background-color: #A26B82;
+	background: #DFA4AA;
+    background: -webkit-linear-gradient(to bottom, #DFA4AA, #BFA5A7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DFA4AA, #BFA5A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	bottom: 0;
 	padding: 2%;
 	clear: both;
@@ -220,7 +225,9 @@ a {
 	color: white;
 }
 nav {
-	background-color: #A26B82;
+	background: #DFA4AA;
+    background: -webkit-linear-gradient(to bottom, #DFA4AA, #BFA5A7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DFA4AA, #BFA5A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding: 0.5%;
 }
 nav ul {
@@ -246,11 +253,14 @@ nav ul li {
 	margin-bottom: 2%;
 }
 .gallery img {
+	border-radius: 5px;
 	width: 100%;
 	height: auto;
 }
 footer {
-	background-color: #A26B82;
+	background: #DFA4AA;
+    background: -webkit-linear-gradient(to bottom, #DFA4AA, #BFA5A7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DFA4AA, #BFA5A7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	bottom: 0;
 	padding: 2%;
 	clear: both;

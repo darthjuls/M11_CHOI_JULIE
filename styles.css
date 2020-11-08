@@ -16,6 +16,15 @@ h1 {
 	font-size: 4.5rem;
 	color: #DFA4AA;
 	font-family: 'Sacramento', cursive;
+	animation-name: myanimation; 
+	animation-duration: 4s;
+}
+@keyframes myanimation {
+ 	0% {left:0px; top:0px;}
+  	25% {right:0px; top:0px;}
+  	50% {right:0px; top:200px;}
+  	75% {left:0px; top:200px;}
+  	100% {left:0px; top:0px;}
 }
 h2 {
 	font-size: 2.5rem;
@@ -34,7 +43,12 @@ p {
 }
 a {
 	color: white;
+	transition: all 0.3s linear;
 }
+a:hover {
+	opacity: 0.5;
+	cursor: pointer;
+	}
 nav {
 	background-color: #A26B82;
 	padding: 0.5%;
@@ -66,12 +80,7 @@ nav ul li {
 	border-radius: 20px;
 	width: 100%;
 	height: auto;
-	transition: all 0.3s linear;
-	}
-.gallery img:hover {
-	opacity: 0.5;
-	cursor: pointer;
-	}
+}
 footer {
 	background-color: #A26B82;
 	bottom: 0;
@@ -88,8 +97,8 @@ footer ul li {
 	font-size: .9rem;
 	padding: 0.5%;
 }
-}
 
+	
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 1023px) {
 body {

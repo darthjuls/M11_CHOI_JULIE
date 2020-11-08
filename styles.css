@@ -5,6 +5,7 @@ Phones: 320 - 767
 Tablets: 768 - 1023
 Desktop: 1024+ */
 
+
 @media (min-width: 1024px){
 body {
 	font-family: sans-serif;
@@ -16,15 +17,21 @@ h1 {
 	font-size: 4.5rem;
 	color: #DFA4AA;
 	font-family: 'Sacramento', cursive;
-	animation-name: myanimation; 
-	animation-duration: 4s;
-}
+  	animation-name: myanimation;
+  	animation-duration: 2.25s; 
+  	animation-timing-function: ease-out; 
+  	animation-delay: 0;
+  	animation-direction: alternate;
+  	animation-iteration-count: 1;
+  	animation-fill-mode: none;
+}	
 @keyframes myanimation {
- 	0% {left:0px; top:0px;}
-  	25% {right:0px; top:0px;}
-  	50% {right:0px; top:200px;}
-  	75% {left:0px; top:200px;}
-  	100% {left:0px; top:0px;}
+  0% {
+    transform: scale(.75);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 h2 {
 	font-size: 2.5rem;
@@ -35,7 +42,7 @@ h2 {
 	font-size: 2rem;
 	font-family: 'Sacramento', cursive;
 	color: #DFA4AA;
-	}
+}
 p {
 	color: black;
 	font-size: 0.95rem;
@@ -48,7 +55,7 @@ a {
 a:hover {
 	opacity: 0.5;
 	cursor: pointer;
-	}
+}
 nav {
 	background-color: #A26B82;
 	padding: 0.5%;
@@ -97,8 +104,7 @@ footer ul li {
 	font-size: .9rem;
 	padding: 0.5%;
 }
-
-	
+}
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 1023px) {
 body {
@@ -111,7 +117,6 @@ h1 {
 	font-size: 3.5rem;
 	color: #DFA4AA;
 	font-family: 'Sacramento', cursive;
-
 }
 h2 {
 	font-size: 2.5rem;
@@ -122,7 +127,7 @@ h2 {
 	font-size: 1.75rem;
 	font-family: 'Sacramento', cursive;
 	color: #DFA4AA;
-	}
+}
 p {
 	color: black;
 	font-size: 0.95rem;
@@ -160,7 +165,7 @@ nav ul li {
 	border-radius: 20px;
 	width: 100%;
 	height: auto;
-	}
+}
 footer {
 	background-color: #A26B82;
 	bottom: 0;
@@ -201,7 +206,7 @@ h2 {
 	font-size: 2rem;
 	font-family: 'Sacramento', cursive;
 	color: #DFA4AA;
-	}
+}
 p {
 	color: black;
 	font-size: 0.95rem;
@@ -243,7 +248,7 @@ nav ul li {
 .gallery img {
 	width: 100%;
 	height: auto;
-	}
+}
 footer {
 	background-color: #A26B82;
 	bottom: 0;
